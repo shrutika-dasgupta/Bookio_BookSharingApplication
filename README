@@ -1,0 +1,112 @@
+=======================
+Team
+=======================
+Siddharth Boobna	ssb2171
+Shrutika Dasgupta	sd2841	
+Pooja Jain		prj2113		
+Devashi Tandon		dt2450
+
+=======================
+Quick Info
+=======================
+
+This app has the following functionality:
+
+The purpose of the app is to help a student find books which he doesn’t have and can borrow or buy from another student who doesn’t need it any more because he has completed the course for which he got the book.
+
+For providing a secure authentication method, we decided to use Facebook authentication. Hence an app user can login into our app through his Facebook id. After successful authentication, the app asks for his phone number. The phone number could have been fetched directly from the phone, but we felt that there could be a possibility that a friend may login into the app through the phone, in which case his phone number would be different. This could happen for example, if a user doesn’t have an iPhone but an Android phone. The app is still not available for Android so he could use his friend’s phone. We wanted to provide this flexibility so chose it this way. Also, the user is not expected to login/logout again and again, and would perhaps stay logged in unless someone else wants to use his phone.
+
+Once logged in, if a user reopens the app, the user is directly taken to the search page. Here he could search for books based on course no. All the books for the course which are available in the database are listed in the results. On clicking the cell of the book it takes to another view, where the details of all the users having the books are displayed. This view has two tabs Rent/Buy. The Rent tab shows all users who are ready to rent the book and the price at which they are renting. The Buy tab shows all users who are ready to sell the book and the price at which they are selling. An button appears next to each user, which if clicked will send an sms to the user renting/selling the book. The two users can then negotiate with each other and make the deal.
+
+We have a side bar on the right which has the following links Home/My Account/Add New Books/Logout. Home takes the app to the search view. My Account displays the users details stored in the local database. Logout will log out the user from the app.
+
+If the book is not available in the database, that means no user is selling/renting it yet. A user can enter the books he owns through the Add New Books link. If he doesn’t find a book in the database, he could add a new book. However, adding a new book doesn’t get reflected in the database immediately. For security reasons, we don’t allow users to modify the global database at will since a user could add bogus entries, which would then annoy other users. They can only modify their own information like the books they own. Hence when a user adds a new book which is not available in the database, a sms is sent to the admin who then adds the information in the database. Once the information is added, a sms is sent to the user telling him that his book got added in the database.
+
+The My books Tab (one of the tabs at the bottom in the Home View), lists the books owned by the user. Here the user can set the rent/sell prices for each book and decide whether he wants to rent or sell them on the basis of text boxes.
+
+The rentals tab (one of the tabs at the bottom in the Home View) lists the books the user has rented from (a sub tab within this view) and lists the books the user has rented out ( another sub tab within this view). The user cannot modify rented from tab and it is automatically populated when the user who has rented it, fills in the information. So the user can add a book he has rented to somebody from the rented to sub-tab by clicking on the plus button. This will add the book to his rentals and hide it from “My Books”. We don’t have a section for sold books, since once the book is sold, there is no need to keep track of who sold it or to whom.
+
+=======================
+File Highlights (most of the code is here)
+=======================
+
+AddNewBooksTableViewCell.h
+AddNewBooksTableViewCell.m
+AddNewBooksViewController.h
+AddNewBooksViewController.m
+AddNotFoundBookViewController.h
+AddNotFoundBookViewController.m
+AddRentedTableViewCell.h
+AddRentedTableViewCell.m
+AddRentedTableViewController.h
+AddRentedTableViewController.m
+AppDelegate.h
+AppDelegate.m
+BookDetailTableViewCell.h
+BookDetailTableViewCell.m
+BookioApi.h
+BookioApi.m
+GetPhoneNoViewController.h
+GetPhoneNoViewController.m
+LoginViewController.h
+LoginViewController.m
+MyAccountViewController.h
+MyAccountViewController.m
+MyBooksTableViewCell.h
+MyBooksTableViewCell.m
+MyBooksViewController.h
+MyBooksViewController.m
+RentOrBuyTableViewCell.h
+RentOrBuyTableViewCell.m
+RentalsTableViewCell.h
+RentalsTableViewCell.m
+RentalsViewController.h
+RentalsViewController.m
+SWRevealViewController.h
+SWRevealViewController.m
+SearchResultViewController.h
+SearchResultViewController.m
+SearchViewController.h
+SearchViewController.m
+SideBarMenuViewController.h
+SideBarMenuViewController.m
+User.h
+User.m
+UserBooks.h
+UserBooks.m
+main.m
+
+Images
+
+AddNewBooks.png
+appicon_120.png
+appicon_58.png 
+appicon_80.png
+launch1.png
+launch2.png
+Logout.png
+MyBooks.png
+MyProfile.png
+bookioBgBig.png
+bookioBgSm.png
+checkbox-ticked.png
+checkbox-unticked.png
+fbButtonImage.png
+fbLogin.png
+home.png
+menu.png
+message.png
+plus-sign.png
+rental.png
+
+=======================
+Known Bugs
+=======================
+
+We have tried to resolve all the bugs. We are not aware of any known bugs in the app.
+
+=======================
+Lessons Learned
+=======================
+
+Refer report.

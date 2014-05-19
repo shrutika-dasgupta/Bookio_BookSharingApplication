@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3BEB5D190DB0BC00D1A384 /* AddNewBooksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BEB5C190DB0BC00D1A384 /* AddNewBooksTableViewCell.m */; };
+		2D3BEB63190E03DA00D1A384 /* AddNotFoundBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BEB62190E03DA00D1A384 /* AddNotFoundBookViewController.m */; };
+		2D64783E1904AA91007BC48A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D64783C1904AA91007BC48A /* SWRevealViewController.m */; };
+		2D6478411904B3EF007BC48A /* SideBarMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6478401904B3EF007BC48A /* SideBarMenuViewController.m */; };
+		2D64784D1904E19D007BC48A /* AddNewBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D64784C1904E19D007BC48A /* AddNewBooksViewController.m */; };
+		2D68FC8B190A1F2100ABC060 /* BookDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68FC8A190A1F2100ABC060 /* BookDetailTableViewCell.m */; };
+		2D68FC8E190A2FFF00ABC060 /* RentOrBuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D68FC8D190A2FFF00ABC060 /* RentOrBuyTableViewCell.m */; };
+		2D7562F4190632B500C0212C /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7562F3190632B500C0212C /* SearchResultViewController.m */; };
+		2DB93C241908E18C00C4B3A9 /* BookioApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB93C231908E18C00C4B3A9 /* BookioApi.m */; };
+		2DC3E3FF1904FE080073DB6B /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3E3FA1904FE080073DB6B /* MyAccountViewController.m */; };
+		2DC3E4001904FE080073DB6B /* MyBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3E3FC1904FE080073DB6B /* MyBooksViewController.m */; };
+		2DC3E4011904FE080073DB6B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3E3FE1904FE080073DB6B /* SearchViewController.m */; };
+		2DD1D94C1908A43800BE92C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD1D94B1908A43800BE92C9 /* CoreData.framework */; };
+		2DD1D9521908A49E00BE92C9 /* Bookio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1D9501908A49E00BE92C9 /* Bookio.xcdatamodeld */; };
+		2DD1D9581908A76400BE92C9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1D9571908A76400BE92C9 /* User.m */; };
+		2DD1D95B1908ADE800BE92C9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1D95A1908ADE800BE92C9 /* LoginViewController.m */; };
+		2DD1D9601908B1FD00BE92C9 /* GetPhoneNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1D95F1908B1FD00BE92C9 /* GetPhoneNoViewController.m */; };
+		2DD8397F190B02A40072550F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD8397E190B02A40072550F /* MessageUI.framework */; };
+		882FC5A81903A344003D4946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5A71903A344003D4946 /* Foundation.framework */; };
+		882FC5AA1903A344003D4946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5A91903A344003D4946 /* CoreGraphics.framework */; };
+		882FC5AC1903A344003D4946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5AB1903A344003D4946 /* UIKit.framework */; };
+		882FC5B21903A344003D4946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 882FC5B01903A344003D4946 /* InfoPlist.strings */; };
+		882FC5B41903A344003D4946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FC5B31903A344003D4946 /* main.m */; };
+		882FC5B81903A344003D4946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FC5B71903A344003D4946 /* AppDelegate.m */; };
+		882FC5BB1903A344003D4946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882FC5B91903A344003D4946 /* Main.storyboard */; };
+		882FC5C01903A344003D4946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882FC5BF1903A344003D4946 /* Images.xcassets */; };
+		882FC5C71903A344003D4946 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5C61903A344003D4946 /* XCTest.framework */; };
+		882FC5C81903A344003D4946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5A71903A344003D4946 /* Foundation.framework */; };
+		882FC5C91903A344003D4946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882FC5AB1903A344003D4946 /* UIKit.framework */; };
+		882FC5D11903A344003D4946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 882FC5CF1903A344003D4946 /* InfoPlist.strings */; };
+		882FC5D31903A344003D4946 /* BookioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FC5D21903A344003D4946 /* BookioTests.m */; };
+		882FC5DE1903AEDB003D4946 /* RentalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FC5DD1903AEDB003D4946 /* RentalsViewController.m */; };
+		88827D3C190E5FBE0029CFDB /* MyBooksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88827D3B190E5FBE0029CFDB /* MyBooksTableViewCell.m */; };
+		88827D3D190E61240029CFDB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5B9CB8190B70ED00F3FFEB /* FacebookSDK.framework */; };
+		888DCC0E190F146D0001C512 /* UserBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 888DCC0D190F146D0001C512 /* UserBooks.m */; };
+		888DCC111910627C0001C512 /* RentalsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 888DCC101910627C0001C512 /* RentalsTableViewCell.m */; };
+		888DCC141910FD800001C512 /* AddRentedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888DCC131910FD800001C512 /* AddRentedTableViewController.m */; };
+		888DCC171910FDD10001C512 /* AddRentedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 888DCC161910FDD10001C512 /* AddRentedTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882FC5CA1903A344003D4946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882FC59C1903A344003D4946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882FC5A31903A344003D4946;
+			remoteInfo = Bookio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3BEB5B190DB0BC00D1A384 /* AddNewBooksTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewBooksTableViewCell.h; sourceTree = "<group>"; };
+		2D3BEB5C190DB0BC00D1A384 /* AddNewBooksTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewBooksTableViewCell.m; sourceTree = "<group>"; };
+		2D3BEB61190E03DA00D1A384 /* AddNotFoundBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNotFoundBookViewController.h; sourceTree = "<group>"; };
+		2D3BEB62190E03DA00D1A384 /* AddNotFoundBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNotFoundBookViewController.m; sourceTree = "<group>"; };
+		2D5B9CB8190B70ED00F3FFEB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		2D64783C1904AA91007BC48A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2D64783D1904AA91007BC48A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2D64783F1904B3EF007BC48A /* SideBarMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuViewController.h; sourceTree = "<group>"; };
+		2D6478401904B3EF007BC48A /* SideBarMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuViewController.m; sourceTree = "<group>"; };
+		2D64784B1904E19D007BC48A /* AddNewBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewBooksViewController.h; sourceTree = "<group>"; };
+		2D64784C1904E19D007BC48A /* AddNewBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewBooksViewController.m; sourceTree = "<group>"; };
+		2D68FC89190A1F2100ABC060 /* BookDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailTableViewCell.h; sourceTree = "<group>"; };
+		2D68FC8A190A1F2100ABC060 /* BookDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailTableViewCell.m; sourceTree = "<group>"; };
+		2D68FC8C190A2FFF00ABC060 /* RentOrBuyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentOrBuyTableViewCell.h; sourceTree = "<group>"; };
+		2D68FC8D190A2FFF00ABC060 /* RentOrBuyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentOrBuyTableViewCell.m; sourceTree = "<group>"; };
+		2D7562F2190632B500C0212C /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		2D7562F3190632B500C0212C /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		2DB93C221908E18C00C4B3A9 /* BookioApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookioApi.h; sourceTree = "<group>"; };
+		2DB93C231908E18C00C4B3A9 /* BookioApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookioApi.m; sourceTree = "<group>"; };
+		2DC3E3F91904FE080073DB6B /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		2DC3E3FA1904FE080073DB6B /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		2DC3E3FB1904FE080073DB6B /* MyBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBooksViewController.h; sourceTree = "<group>"; };
+		2DC3E3FC1904FE080073DB6B /* MyBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBooksViewController.m; sourceTree = "<group>"; };
+		2DC3E3FD1904FE080073DB6B /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2DC3E3FE1904FE080073DB6B /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2DD1D94B1908A43800BE92C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2DD1D9511908A49E00BE92C9 /* Bookio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookio.xcdatamodel; sourceTree = "<group>"; };
+		2DD1D9561908A76400BE92C9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2DD1D9571908A76400BE92C9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		2DD1D9591908ADE800BE92C9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2DD1D95A1908ADE800BE92C9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2DD1D95E1908B1FD00BE92C9 /* GetPhoneNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPhoneNoViewController.h; sourceTree = "<group>"; };
+		2DD1D95F1908B1FD00BE92C9 /* GetPhoneNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPhoneNoViewController.m; sourceTree = "<group>"; };
+		2DD8397E190B02A40072550F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		882FC5A41903A344003D4946 /* Bookio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FC5A71903A344003D4946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		882FC5A91903A344003D4946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		882FC5AB1903A344003D4946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		882FC5AF1903A344003D4946 /* Bookio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bookio-Info.plist"; sourceTree = "<group>"; };
+		882FC5B11903A344003D4946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882FC5B31903A344003D4946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882FC5B51903A344003D4946 /* Bookio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bookio-Prefix.pch"; sourceTree = "<group>"; };
+		882FC5B61903A344003D4946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		882FC5B71903A344003D4946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		882FC5BA1903A344003D4946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882FC5BF1903A344003D4946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		882FC5C51903A344003D4946 /* BookioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FC5C61903A344003D4946 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		882FC5CE1903A344003D4946 /* BookioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookioTests-Info.plist"; sourceTree = "<group>"; };
+		882FC5D01903A344003D4946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882FC5D21903A344003D4946 /* BookioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookioTests.m; sourceTree = "<group>"; };
+		882FC5DC1903AEDB003D4946 /* RentalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalsViewController.h; sourceTree = "<group>"; };
+		882FC5DD1903AEDB003D4946 /* RentalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalsViewController.m; sourceTree = "<group>"; };
+		88827D3A190E5FBE0029CFDB /* MyBooksTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBooksTableViewCell.h; sourceTree = "<group>"; };
+		88827D3B190E5FBE0029CFDB /* MyBooksTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBooksTableViewCell.m; sourceTree = "<group>"; };
+		888DCC0C190F146D0001C512 /* UserBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBooks.h; sourceTree = "<group>"; };
+		888DCC0D190F146D0001C512 /* UserBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBooks.m; sourceTree = "<group>"; };
+		888DCC0F1910627C0001C512 /* RentalsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalsTableViewCell.h; sourceTree = "<group>"; };
+		888DCC101910627C0001C512 /* RentalsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalsTableViewCell.m; sourceTree = "<group>"; };
+		888DCC121910FD800001C512 /* AddRentedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRentedTableViewController.h; sourceTree = "<group>"; };
+		888DCC131910FD800001C512 /* AddRentedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRentedTableViewController.m; sourceTree = "<group>"; };
+		888DCC151910FDD10001C512 /* AddRentedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRentedTableViewCell.h; sourceTree = "<group>"; };
+		888DCC161910FDD10001C512 /* AddRentedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRentedTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882FC5A11903A344003D4946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88827D3D190E61240029CFDB /* FacebookSDK.framework in Frameworks */,
+				2DD8397F190B02A40072550F /* MessageUI.framework in Frameworks */,
+				2DD1D94C1908A43800BE92C9 /* CoreData.framework in Frameworks */,
+				882FC5AA1903A344003D4946 /* CoreGraphics.framework in Frameworks */,
+				882FC5AC1903A344003D4946 /* UIKit.framework in Frameworks */,
+				882FC5A81903A344003D4946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FC5C21903A344003D4946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FC5C71903A344003D4946 /* XCTest.framework in Frameworks */,
+				882FC5C91903A344003D4946 /* UIKit.framework in Frameworks */,
+				882FC5C81903A344003D4946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D64783B1904AA3E007BC48A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2D64783C1904AA91007BC48A /* SWRevealViewController.m */,
+				2D64783D1904AA91007BC48A /* SWRevealViewController.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		882FC59B1903A344003D4946 = {
+			isa = PBXGroup;
+			children = (
+				882FC5AD1903A344003D4946 /* Bookio */,
+				882FC5CC1903A344003D4946 /* BookioTests */,
+				882FC5A61903A344003D4946 /* Frameworks */,
+				882FC5A51903A344003D4946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882FC5A51903A344003D4946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882FC5A41903A344003D4946 /* Bookio.app */,
+				882FC5C51903A344003D4946 /* BookioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882FC5A61903A344003D4946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B9CB8190B70ED00F3FFEB /* FacebookSDK.framework */,
+				2DD8397E190B02A40072550F /* MessageUI.framework */,
+				2DD1D94B1908A43800BE92C9 /* CoreData.framework */,
+				882FC5A71903A344003D4946 /* Foundation.framework */,
+				882FC5A91903A344003D4946 /* CoreGraphics.framework */,
+				882FC5AB1903A344003D4946 /* UIKit.framework */,
+				882FC5C61903A344003D4946 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882FC5AD1903A344003D4946 /* Bookio */ = {
+			isa = PBXGroup;
+			children = (
+				882FC5B91903A344003D4946 /* Main.storyboard */,
+				882FC5B61903A344003D4946 /* AppDelegate.h */,
+				882FC5B71903A344003D4946 /* AppDelegate.m */,
+				2DD1D9591908ADE800BE92C9 /* LoginViewController.h */,
+				2DD1D95A1908ADE800BE92C9 /* LoginViewController.m */,
+				2DD1D95E1908B1FD00BE92C9 /* GetPhoneNoViewController.h */,
+				2DD1D95F1908B1FD00BE92C9 /* GetPhoneNoViewController.m */,
+				2DC3E3FB1904FE080073DB6B /* MyBooksViewController.h */,
+				2DC3E3FC1904FE080073DB6B /* MyBooksViewController.m */,
+				88827D3A190E5FBE0029CFDB /* MyBooksTableViewCell.h */,
+				88827D3B190E5FBE0029CFDB /* MyBooksTableViewCell.m */,
+				2DC3E3FD1904FE080073DB6B /* SearchViewController.h */,
+				2DC3E3FE1904FE080073DB6B /* SearchViewController.m */,
+				2D68FC89190A1F2100ABC060 /* BookDetailTableViewCell.h */,
+				2D68FC8A190A1F2100ABC060 /* BookDetailTableViewCell.m */,
+				2D7562F2190632B500C0212C /* SearchResultViewController.h */,
+				2D7562F3190632B500C0212C /* SearchResultViewController.m */,
+				2D68FC8C190A2FFF00ABC060 /* RentOrBuyTableViewCell.h */,
+				2D68FC8D190A2FFF00ABC060 /* RentOrBuyTableViewCell.m */,
+				882FC5DC1903AEDB003D4946 /* RentalsViewController.h */,
+				882FC5DD1903AEDB003D4946 /* RentalsViewController.m */,
+				888DCC0F1910627C0001C512 /* RentalsTableViewCell.h */,
+				888DCC101910627C0001C512 /* RentalsTableViewCell.m */,
+				888DCC121910FD800001C512 /* AddRentedTableViewController.h */,
+				888DCC131910FD800001C512 /* AddRentedTableViewController.m */,
+				888DCC161910FDD10001C512 /* AddRentedTableViewCell.m */,
+				2D64783F1904B3EF007BC48A /* SideBarMenuViewController.h */,
+				888DCC151910FDD10001C512 /* AddRentedTableViewCell.h */,
+				2D6478401904B3EF007BC48A /* SideBarMenuViewController.m */,
+				2DC3E3F91904FE080073DB6B /* MyAccountViewController.h */,
+				2DC3E3FA1904FE080073DB6B /* MyAccountViewController.m */,
+				2D64784B1904E19D007BC48A /* AddNewBooksViewController.h */,
+				2D64784C1904E19D007BC48A /* AddNewBooksViewController.m */,
+				2D3BEB5B190DB0BC00D1A384 /* AddNewBooksTableViewCell.h */,
+				2D3BEB5C190DB0BC00D1A384 /* AddNewBooksTableViewCell.m */,
+				2D3BEB61190E03DA00D1A384 /* AddNotFoundBookViewController.h */,
+				2D3BEB62190E03DA00D1A384 /* AddNotFoundBookViewController.m */,
+				2DB93C221908E18C00C4B3A9 /* BookioApi.h */,
+				2DB93C231908E18C00C4B3A9 /* BookioApi.m */,
+				2DD1D9501908A49E00BE92C9 /* Bookio.xcdatamodeld */,
+				888DCC0C190F146D0001C512 /* UserBooks.h */,
+				888DCC0D190F146D0001C512 /* UserBooks.m */,
+				2DD1D9561908A76400BE92C9 /* User.h */,
+				2DD1D9571908A76400BE92C9 /* User.m */,
+				882FC5BF1903A344003D4946 /* Images.xcassets */,
+				2D64783B1904AA3E007BC48A /* Library */,
+				882FC5AE1903A344003D4946 /* Supporting Files */,
+			);
+			path = Bookio;
+			sourceTree = "<group>";
+		};
+		882FC5AE1903A344003D4946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882FC5AF1903A344003D4946 /* Bookio-Info.plist */,
+				882FC5B01903A344003D4946 /* InfoPlist.strings */,
+				882FC5B31903A344003D4946 /* main.m */,
+				882FC5B51903A344003D4946 /* Bookio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		882FC5CC1903A344003D4946 /* BookioTests */ = {
+			isa = PBXGroup;
+			children = (
+				882FC5D21903A344003D4946 /* BookioTests.m */,
+				882FC5CD1903A344003D4946 /* Supporting Files */,
+			);
+			path = BookioTests;
+			sourceTree = "<group>";
+		};
+		882FC5CD1903A344003D4946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				882FC5CE1903A344003D4946 /* BookioTests-Info.plist */,
+				882FC5CF1903A344003D4946 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882FC5A31903A344003D4946 /* Bookio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882FC5D61903A344003D4946 /* Build configuration list for PBXNativeTarget "Bookio" */;
+			buildPhases = (
+				882FC5A01903A344003D4946 /* Sources */,
+				882FC5A11903A344003D4946 /* Frameworks */,
+				882FC5A21903A344003D4946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookio;
+			productName = Bookio;
+			productReference = 882FC5A41903A344003D4946 /* Bookio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882FC5C41903A344003D4946 /* BookioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882FC5D91903A344003D4946 /* Build configuration list for PBXNativeTarget "BookioTests" */;
+			buildPhases = (
+				882FC5C11903A344003D4946 /* Sources */,
+				882FC5C21903A344003D4946 /* Frameworks */,
+				882FC5C31903A344003D4946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882FC5CB1903A344003D4946 /* PBXTargetDependency */,
+			);
+			name = BookioTests;
+			productName = BookioTests;
+			productReference = 882FC5C51903A344003D4946 /* BookioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882FC59C1903A344003D4946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Columbia University";
+				TargetAttributes = {
+					882FC5A31903A344003D4946 = {
+						DevelopmentTeam = D5G7A73C8V;
+					};
+					882FC5C41903A344003D4946 = {
+						TestTargetID = 882FC5A31903A344003D4946;
+					};
+				};
+			};
+			buildConfigurationList = 882FC59F1903A344003D4946 /* Build configuration list for PBXProject "Bookio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882FC59B1903A344003D4946;
+			productRefGroup = 882FC5A51903A344003D4946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882FC5A31903A344003D4946 /* Bookio */,
+				882FC5C41903A344003D4946 /* BookioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882FC5A21903A344003D4946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FC5C01903A344003D4946 /* Images.xcassets in Resources */,
+				882FC5B21903A344003D4946 /* InfoPlist.strings in Resources */,
+				882FC5BB1903A344003D4946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FC5C31903A344003D4946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FC5D11903A344003D4946 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882FC5A01903A344003D4946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FC5B81903A344003D4946 /* AppDelegate.m in Sources */,
+				888DCC111910627C0001C512 /* RentalsTableViewCell.m in Sources */,
+				2D68FC8B190A1F2100ABC060 /* BookDetailTableViewCell.m in Sources */,
+				2DC3E4011904FE080073DB6B /* SearchViewController.m in Sources */,
+				2DD1D9521908A49E00BE92C9 /* Bookio.xcdatamodeld in Sources */,
+				2DB93C241908E18C00C4B3A9 /* BookioApi.m in Sources */,
+				2D7562F4190632B500C0212C /* SearchResultViewController.m in Sources */,
+				2D3BEB63190E03DA00D1A384 /* AddNotFoundBookViewController.m in Sources */,
+				2D68FC8E190A2FFF00ABC060 /* RentOrBuyTableViewCell.m in Sources */,
+				2D64784D1904E19D007BC48A /* AddNewBooksViewController.m in Sources */,
+				2D64783E1904AA91007BC48A /* SWRevealViewController.m in Sources */,
+				2DD1D9581908A76400BE92C9 /* User.m in Sources */,
+				882FC5DE1903AEDB003D4946 /* RentalsViewController.m in Sources */,
+				2D3BEB5D190DB0BC00D1A384 /* AddNewBooksTableViewCell.m in Sources */,
+				2D6478411904B3EF007BC48A /* SideBarMenuViewController.m in Sources */,
+				2DD1D9601908B1FD00BE92C9 /* GetPhoneNoViewController.m in Sources */,
+				2DC3E3FF1904FE080073DB6B /* MyAccountViewController.m in Sources */,
+				888DCC171910FDD10001C512 /* AddRentedTableViewCell.m in Sources */,
+				888DCC0E190F146D0001C512 /* UserBooks.m in Sources */,
+				882FC5B41903A344003D4946 /* main.m in Sources */,
+				2DC3E4001904FE080073DB6B /* MyBooksViewController.m in Sources */,
+				88827D3C190E5FBE0029CFDB /* MyBooksTableViewCell.m in Sources */,
+				888DCC141910FD800001C512 /* AddRentedTableViewController.m in Sources */,
+				2DD1D95B1908ADE800BE92C9 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FC5C11903A344003D4946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FC5D31903A344003D4946 /* BookioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882FC5CB1903A344003D4946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882FC5A31903A344003D4946 /* Bookio */;
+			targetProxy = 882FC5CA1903A344003D4946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882FC5B01903A344003D4946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882FC5B11903A344003D4946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		882FC5B91903A344003D4946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882FC5BA1903A344003D4946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882FC5CF1903A344003D4946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882FC5D01903A344003D4946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882FC5D41903A344003D4946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2F106815-FC23-4642-8E19-0AB1D565992F";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		882FC5D51903A344003D4946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "2F106815-FC23-4642-8E19-0AB1D565992F";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882FC5D71903A344003D4946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookio/Bookio-Prefix.pch";
+				INFOPLIST_FILE = "Bookio/Bookio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		882FC5D81903A344003D4946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookio/Bookio-Prefix.pch";
+				INFOPLIST_FILE = "Bookio/Bookio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		882FC5DA1903A344003D4946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bookio.app/Bookio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookio/Bookio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BookioTests/BookioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		882FC5DB1903A344003D4946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bookio.app/Bookio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookio/Bookio-Prefix.pch";
+				INFOPLIST_FILE = "BookioTests/BookioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882FC59F1903A344003D4946 /* Build configuration list for PBXProject "Bookio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FC5D41903A344003D4946 /* Debug */,
+				882FC5D51903A344003D4946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882FC5D61903A344003D4946 /* Build configuration list for PBXNativeTarget "Bookio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FC5D71903A344003D4946 /* Debug */,
+				882FC5D81903A344003D4946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882FC5D91903A344003D4946 /* Build configuration list for PBXNativeTarget "BookioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FC5DA1903A344003D4946 /* Debug */,
+				882FC5DB1903A344003D4946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DD1D9501908A49E00BE92C9 /* Bookio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DD1D9511908A49E00BE92C9 /* Bookio.xcdatamodel */,
+			);
+			currentVersion = 2DD1D9511908A49E00BE92C9 /* Bookio.xcdatamodel */;
+			path = Bookio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 882FC59C1903A344003D4946 /* Project object */;
+}
